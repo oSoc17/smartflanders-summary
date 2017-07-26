@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Smart Flanders - Parking</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+        .navbar-toggler {
+            z-index: 1;
+        }
+
+        @media (max-width: 576px) {
+            nav>.container {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#page-top">Smart Flanders</a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#problem">Problem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solution">Solution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how">How</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#poc">POC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#more">More</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Zoekverkeer verminderen met</div>
+                <div class="intro-heading">Linked open parking data</div>
+                <a href="#problem" class="btn btn-xl">Meer informatie</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem -->
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Het probleem</h2>
+                    <h3 class="section-subheading text-muted problem-container">
+                        Ongeveer <b>30% van al het verkeer in een stad</b> wordt veroorzaakt door zoekverkeer. Dit probleem proberen we op te lossen door het beter informeren van automobilisten.
+                        We doen dit aan de hand van open linked data die de gebruiker in staat stelt om real-time parkeerinformatie te consulteren. 
+                        Op dit ogenblik wordt de data echter door de steden in verschillende formaten gepubliceerd en wordt historische data niet bijgehouden. Met ons project willen wij aantonen dat het anders kan!
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="bg-faded" id="solution">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">De oplossing: Linked Open Data</h2>
+                    <h3 class="section-subheading text-muted">Er werd gekozen om één enkel formaat te selecteren: Linked Open Dat</b>
+                    </h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Real-time + historisch</h4>
+                    <p class="text-muted">
+                        Door de data bij te houden kunnen we niet enkel historische analyses uitvoeren maar ook voorspellingen worden hierdoor mogelijk. De data wordt ook real-time weergegeven.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-eur fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Kostenefficiënt</h4>
+                    <p class="text-muted">
+                        Geen behoefte aan dure servers, de linked open data wordt bijgehouden in bestanden die hierna door de browser worden verwerkt. 
+                        Dit zorgt ervoor dat de kost voor infrastructuur laag ligt, alsook de onderhoudskosten.  
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-circle-o-notch fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Flexibel</h4>
+                    <p class="text-muted">Onze oplossing is gemaakt met het oog om generisch te zijn. Hierdoor is het gemakkelijk om andere data te implementeren.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How -->
+    <section id="how">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Hoe</h2>
+                    <h3 class="section-subheading text-muted">De weg naar onze oplossing</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/how/formats-sm.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>The format mess</h4>
+                                    <!-- <h4 class="subheading">Our Humble Beginnings</h4> -->
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        Om dit stedelijk probleem van zoekverkeer op te lossen zijn we begonnen met het verzamelen van data van verschillende bronnen. 
+                                        Deze hebben we dan geherpubliceerd als linked open data. In de toekomst hopen we dat de data op deze manier wordt gepubliceerd door de bonnen zelf.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Het verzamelen</h4>
+                                    <!-- <h4 class="subheading">An Agency is Born</h4> -->
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Om de krachten van historische data aan te kunnen aantonen hebben gedurende enkele maanden data verzamelend. 
+                                        Door deze data op te slaan in bestanden zijn we erin geslaag om de infrastructuurkost laag te houden</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Gebruik</h4>
+                                    <!-- <h4 class="subheading">Transition to Full Service</h4> -->
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Om te kunnen bewijzen dat de browser in staat is om deze data te verwerken is er een proof of concept gemaakt. 
+                                        Deze vraagt de data op en gaat deze verwerken. Na het verwerken is hebben we besloten om de data te visualiseren. Hierdoor krijgt de gebruiker een indruk van de mogelijkheden van linked open data.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proof of concept -->
+    <section class="bg-faded" id="poc">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Proof of concept</h2>
+                    <h2 class="section-heading">Waiting for POC screenshots</h2>
+                    <h3 class="section-subheading text-muted">Een webapplicatie die de kracht van linked open data illustreert</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More info -->
+    <section id="more">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Meer informatie</h2>
+                    <h3 class="section-subheading text-muted">De volgende links verwijzen naar pagina's met meer informatie</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+                        <a href="https://github.com/oSoc17/smartflanders-poc" target="_blank"><h4>Proof of concept</h4></a>
+                        <p class="text-muted">Het repository van het proof of concept</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+                        <a href="https://github.com/oSoc17/smartflanders-backend" target="_blank"><h4>Back end</h4></a>
+                        <p class="text-muted">Het repository van de back end.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+                        <a href="https://github.com/oSoc17/smartflanders-summary" target="_blank"><h4>This website</h4></a>
+                        <p class="text-muted">THet repository van de website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="bg-faded" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Het team</h2>
+                    <h3 class="section-subheading text-muted">De mensen die dit hebben mogelijk gemaakt</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/pieter.jpg" alt="">
+                        <h4>Pieter Colpaert</h4>
+                        <p class="text-muted">Coach</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/pietercolpaert" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/pcolpaert/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/israel.jpg" alt="">
+                        <h4>Israel Ketema Elefenh</h4>
+                        <p class="text-muted">Transport Scientist</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/israel_ketema" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/israel-ketema-37a17b105/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/arne.jpg" alt="">
+                        <h4>Arne Gevaert</h4>
+                        <p class="text-muted">Developer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/thibault.jpg" alt="">
+                        <h4>Thibault Lesuisse</h4>
+                        <p class="text-muted">Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/thibault-lesuisse-74754b120/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/ruben.jpg" alt="">
+                        <h4>Ruben Thys</h4>
+                        <p class="text-muted">Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/Thys_Ruben" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/ruben-thys-895545120/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis
+                        ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">MIT License</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/hashtag/smartflanders?src=hash" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            <a href="http://2017.summerofcode.be/" target="_blank">Osoc17</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+    <!-- Custom scripts for smart flanders -->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
