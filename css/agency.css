@@ -36,7 +36,7 @@ section {
     font-weight: 400;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Flanders Art Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
@@ -130,7 +130,7 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Flanders Art Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -148,7 +148,7 @@ header.masthead {
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Flanders Art Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
