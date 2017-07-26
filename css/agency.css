@@ -32,12 +32,11 @@ section {
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Flanders Art Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
@@ -76,7 +75,7 @@ body {
     padding: 0; }
     #mainNav .container .navbar-brand {
       color: #8AAC3E;
-      font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+      font-family: 'Flanders Art Sans Light', 'Helvetica Neue', Helvetica, Arial, cursive; }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
         color: #6c8730; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
@@ -131,7 +130,7 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Flanders Art Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -149,7 +148,7 @@ header.masthead {
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Flanders Art Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
@@ -313,6 +312,13 @@ header.masthead {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
+
+#partners img {
+  max-height: 80px;
+  width: auto;
+  margin-bottom: 2rem;
+  -webkit-filter: grayscale(100%) brightness(135%) contrast(120%);
+  filter: grayscale(100%) brightness(135%) contrast(120%); }
 
 footer {
   padding: 25px 0;
