@@ -313,6 +313,13 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
+#partners img {
+  max-height: 80px;
+  width: auto;
+  margin-bottom: 2rem;
+  -webkit-filter: grayscale(100%) brightness(135%) contrast(120%);
+  filter: grayscale(100%) brightness(135%) contrast(120%); }
+
 footer {
   padding: 25px 0;
   text-align: center; }
