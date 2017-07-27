@@ -313,6 +313,15 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
+.carousel-item {
+  height: 550px;
+  margin: 0 auto; }
+
+.carousel-item .img-responsive {
+  display: block;
+  width: auto;
+  max-height: 100%; }
+
 #partners img {
   max-height: 80px;
   width: auto;
