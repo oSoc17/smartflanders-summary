@@ -322,6 +322,9 @@ header.masthead {
   width: auto;
   max-height: 100%; }
 
+.carousel {
+  margin: 0 auto; }
+
 #partners img {
   max-height: 80px;
   width: auto;
