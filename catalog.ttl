@@ -1,0 +1,74 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<https://datapiloten.be/parking/catalog.ttl> a foaf:Document, dcat:Catalog ;
+                                     dct:title "Smart Flanders Parking Catalog" ;
+                                     rdfs:label "Smart Flanders Parking Catalog" ;
+                                     dct:creator <https://pietercolpaert.be/#me> ;
+                                     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+                                     dct:description "Created as a proof of concept for Smart Flanders. All distributions in this catalog comply to the Time Series specification of Smart Flanders" ;
+                                     dct:rights "Example catalog: feel free to use it for any purpose" ;
+                                     foaf:page <https://datapiloten.be/parking/> ;
+                                     dcat:dataset <https://linked.open.gent/parking#dataset> .
+                                     
+<https://linked.open.gent/parking#dataset> a dcat:Dataset ;
+                                           dct:title "Parking Availability in Ghent";
+                                           dcat:distribution <https://linked.open.gent/parking>.
+
+#TODO: we still need a URI for the time series specification
+<https://linked.open.gent/parking> a dcat:Distribution ;
+                                   dct:title "Time Series of parking space availability" ;
+                                   dct:conformsTo <https://example.org/TimeSeries/spec> ; 
+                                   dcat:downloadURL <https://linked.open.gent/parking> .
+
+
+<https://kortrijk.datapiloten.be/parking#dataset> a dcat:Dataset ;
+                                           dct:title "Parking Availability in Kortrijk";
+                                           dcat:distribution <https://kortrijk.datapiloten.be/parking> .
+
+<https://kortrijk.datapiloten.be/parking> a dcat:Distribution ;
+                                   dct:title "Time Series of parking space availability" ;
+                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
+                                   dcat:downloadURL <https://kortrijk.datapiloten.be/parking> .
+
+
+
+<https://leuven.datapiloten.be/parking#dataset> a dcat:Dataset ;
+                                           dct:title "Parking Availability in Leuven";
+                                           dcat:distribution <https://leuven.datapiloten.be/parking> .
+
+<https://leuven.datapiloten.be/parking> a dcat:Distribution ;
+                                   dct:title "Time Series of parking space availability" ;
+                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
+                                   dcat:downloadURL <https://leuven.datapiloten.be/parking> .
+
+<https://mechelen.datapiloten.be/parking#dataset> a dcat:Dataset ;
+                                           dct:title "Parking Availability in Mechelen";
+                                           dcat:distribution <https://mechelen.datapiloten.be/parking> .
+
+<https://mechelen.datapiloten.be/parking> a dcat:Distribution ;
+                                   dct:title "Time Series of parking space availability" ;
+                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
+                                   dcat:downloadURL <https://mechelen.datapiloten.be/parking> .
+
+
+<https://sint-niklaas.datapiloten.be/parking#dataset> a dcat:Dataset ;
+                                           dct:title "Parking Availability in Sint-Niklaas";
+                                           dcat:distribution <https://sint-niklaas.datapiloten.be/parking> .
+
+<https://sint-niklaas.datapiloten.be/parking> a dcat:Distribution ;
+                                   dct:title "Time Series of parking space availability" ;
+                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
+                                   dcat:downloadURL <https://sint-niklaas.datapiloten.be/parking> .
+
+
+<https://nederland.datapiloten.be/parking#dataset> a dcat:Dataset ;
+                                           dct:title "Parking Availability in Nederland";
+                                           dcat:distribution <https://nederland.datapiloten.be/parking> .
+
+<https://nederland.datapiloten.be/parking> a dcat:Distribution ;
+                                   dct:title "Time Series of parking space availability" ;
+                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
+                                   dcat:downloadURL <https://nederland.datapiloten.be/parking> .
