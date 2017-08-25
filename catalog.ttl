@@ -44,15 +44,15 @@
                                    dct:conformsTo <https://example.org/TimeSeries/spec> ;
                                    dcat:downloadURL <https://leuven.datapiloten.be/parking> .
 
-<https://mechelen.datapiloten.be/parking#dataset> a dcat:Dataset ;
-                                           dct:title "Parking Availability in Mechelen";
-                                           dcat:distribution <https://mechelen.datapiloten.be/parking> .
-
-<https://mechelen.datapiloten.be/parking> a dcat:Distribution ;
-                                   dct:title "Time Series of parking space availability" ;
-                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
-                                   dcat:downloadURL <https://mechelen.datapiloten.be/parking> .
-
+#<https://mechelen.datapiloten.be/parking#dataset> a dcat:Dataset ;
+#                                           dct:title "Parking Availability in Mechelen";
+#                                           dcat:distribution <https://mechelen.datapiloten.be/parking> .
+#
+#<https://mechelen.datapiloten.be/parking> a dcat:Distribution ;
+#                                   dct:title "Time Series of parking space availability" ;
+#                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
+#                                   dcat:downloadURL <https://mechelen.datapiloten.be/parking> .
+#
 
 <https://sint-niklaas.datapiloten.be/parking#dataset> a dcat:Dataset ;
                                            dct:title "Parking Availability in Sint-Niklaas";
