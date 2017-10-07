@@ -17,7 +17,7 @@
 <https://linked.open.gent/parking#dataset> a dcat:Dataset ;
                                            dct:title "Parking Availability in Ghent";
                                            dcat:distribution <https://linked.open.gent/parking>;
-                                           mdi:hasRangeGate <https://linked.open.gent/parking/rangegate> .
+                                           # mdi:hasRangeGate <https://linked.open.gent/parking/rangegate> .
 
 #TODO: we still need a URI for the time series specification
 <https://linked.open.gent/parking> a dcat:Distribution ;
@@ -29,7 +29,7 @@
 <https://kortrijk.datapiloten.be/parking#dataset> a dcat:Dataset ;
                                            dct:title "Parking Availability in Kortrijk";
                                            dcat:distribution <https://kortrijk.datapiloten.be/parking> ;
-					   mdi:hasRangeGate <https://kortrijk.datapiloten.be/parking/rangegate> .
+					   # mdi:hasRangeGate <https://kortrijk.datapiloten.be/parking/rangegate> .
 
 <https://kortrijk.datapiloten.be/parking> a dcat:Distribution ;
                                    dct:title "Time Series of parking space availability" ;
@@ -41,7 +41,7 @@
 <https://leuven.datapiloten.be/parking#dataset> a dcat:Dataset ;
                                            dct:title "Parking Availability in Leuven";
                                            dcat:distribution <https://leuven.datapiloten.be/parking> ;
-					   mdi:hasRangeGate <https://leuven.datapiloten.be/parking/rangegate> .
+					   # mdi:hasRangeGate <https://leuven.datapiloten.be/parking/rangegate> .
 
 <https://leuven.datapiloten.be/parking> a dcat:Distribution ;
                                    dct:title "Time Series of parking space availability" ;
@@ -62,7 +62,7 @@
 <https://sint-niklaas.datapiloten.be/parking#dataset> a dcat:Dataset ;
                                            dct:title "Parking Availability in Sint-Niklaas";
                                            dcat:distribution <https://sint-niklaas.datapiloten.be/parking> ;
-					   mdi:hasRangeGate <https://sint-niklaas.datapiloten.be/parking/rangegate> .
+					   # mdi:hasRangeGate <https://sint-niklaas.datapiloten.be/parking/rangegate> .
 
 <https://sint-niklaas.datapiloten.be/parking> a dcat:Distribution ;
                                    dct:title "Time Series of parking space availability" ;
@@ -73,7 +73,7 @@
 <https://nederland.datapiloten.be/parking#dataset> a dcat:Dataset ;
                                            dct:title "Parking Availability in Nederland";
                                            dcat:distribution <https://nederland.datapiloten.be/parking> ;
-					   mdi:hasRangeGate <https://nederland.datapiloten.be/parking/rangegate> .
+					   # mdi:hasRangeGate <https://nederland.datapiloten.be/parking/rangegate> .
 
 <https://nederland.datapiloten.be/parking> a dcat:Distribution ;
                                    dct:title "Time Series of parking space availability" ;
