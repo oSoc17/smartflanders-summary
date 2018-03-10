@@ -70,12 +70,12 @@
                                    dcat:downloadURL <https://sint-niklaas.datapiloten.be/parking> .
 
 
-<https://nederland.datapiloten.be/parking#dataset> a dcat:Dataset ;
-                                           dct:title "Parking Availability in Nederland";
-                                           dcat:distribution <https://nederland.datapiloten.be/parking> ;
-					   mdi:hasRangeGate <https://nederland.datapiloten.be/parking/rangegate> .
+#<https://nederland.datapiloten.be/parking#dataset> a dcat:Dataset ;
+#                                           dct:title "Parking Availability in Nederland";
+#                                           dcat:distribution <https://nederland.datapiloten.be/parking> ;
+#					   mdi:hasRangeGate <https://nederland.datapiloten.be/parking/rangegate> .
 
-<https://nederland.datapiloten.be/parking> a dcat:Distribution ;
-                                   dct:title "Time Series of parking space availability" ;
-                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
-                                   dcat:downloadURL <https://nederland.datapiloten.be/parking> .
+#<https://nederland.datapiloten.be/parking> a dcat:Distribution ;
+#                                   dct:title "Time Series of parking space availability" ;
+#                                   dct:conformsTo <https://example.org/TimeSeries/spec> ;
+#                                   dcat:downloadURL <https://nederland.datapiloten.be/parking> .
